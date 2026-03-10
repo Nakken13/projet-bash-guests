@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
-~/sondes/sonde-cpu.py
-~/sondes/sonde-disk.py
-~/sondes/sonde-ram.sh
+~/projet-bash-guests/sondes/sonde-cpu.py
+~/projet-bash-guests/sondes/sonde-disk.py
+~/projet-bash-guests/sondes/sonde-ram.sh
