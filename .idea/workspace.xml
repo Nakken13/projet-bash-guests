@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec97a56a-5b7e-4936-ad95-64ac391926bb" name="Changes" comment="add user">
-      <change beforePath="$PROJECT_DIR$/sondes/sonde-disk.py" beforeDir="false" afterPath="$PROJECT_DIR$/sondes/sonde-disk.py" afterDir="false" />
+    <list default="true" id="ec97a56a-5b7e-4936-ad95-64ac391926bb" name="Changes" comment="update user ram">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sondes/sonde-ram.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sondes/sonde-ram.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,11 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\nahel\\AppData\\Roaming\\JetBrains\\PyCharm2025.3\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SharedIndexes">
@@ -55,6 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773138012963</updated>
+      <workItem from="1773180082650" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="first commit (guests)">
       <option name="closed" value="true" />
@@ -104,8 +109,27 @@
       <option name="project" value="LOCAL" />
       <updated>1773169370396</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update user ram et disk">
+      <option name="closed" value="true" />
+      <created>1773169669001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773169669001</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update user ram">
+      <option name="closed" value="true" />
+      <created>1773169999188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773169999188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit (guests)" />
@@ -113,6 +137,8 @@
     <MESSAGE value="update links" />
     <MESSAGE value="fix dump" />
     <MESSAGE value="add user" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user" />
+    <MESSAGE value="update user ram et disk" />
+    <MESSAGE value="update user ram" />
+    <option name="LAST_COMMIT_MESSAGE" value="update user ram" />
   </component>
 </project>
