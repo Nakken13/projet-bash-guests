@@ -1,5 +1,8 @@
 #!/bin/python3
 import json
+import time
+import psutil
+import os
 # possibilité d'envoyer les données récupées et les récupérer sur le moniteur et le moniteur peut intérroger
 
 #cron : permet de lancer un programme tout les x temps
@@ -20,5 +23,5 @@ class SondeCpu:
         })
 
 sonde = SondeCpu()
-sonde.collecter()
+print(sonde.collecter())
 
