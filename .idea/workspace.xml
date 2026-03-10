@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec97a56a-5b7e-4936-ad95-64ac391926bb" name="Changes" comment="update links">
+    <list default="true" id="ec97a56a-5b7e-4936-ad95-64ac391926bb" name="Changes" comment="fix dump">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sondes/sonde-cpu.py" beforeDir="false" afterPath="$PROJECT_DIR$/sondes/sonde-cpu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +79,30 @@
       <option name="project" value="LOCAL" />
       <updated>1773144409439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update links">
+      <option name="closed" value="true" />
+      <created>1773167164606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773167164606</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix dump">
+      <option name="closed" value="true" />
+      <created>1773167246251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773167246251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit (guests)" />
     <MESSAGE value="update setup" />
     <MESSAGE value="update links" />
-    <option name="LAST_COMMIT_MESSAGE" value="update links" />
+    <MESSAGE value="fix dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix dump" />
   </component>
 </project>
