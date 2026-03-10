@@ -15,10 +15,12 @@ class SondeDisque:
         self.disk_percent = psutil.disk_usage('/').percent 
         self.time = int(time.time()) # dater avec epoch
         self.name_server = os.uname()[1] # recup nom du server
+        self.user = os.environ.get("USER")
 
     def collecter(self):
         return json.dumps({
             "[INFO : DISQUE]": {
+                "user": self.user,
                 "serveur": self.name_server,
                 "temps": self.time,
                 "disque": self.disk_percent

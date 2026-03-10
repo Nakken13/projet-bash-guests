@@ -2,7 +2,7 @@
 
 serveur=$(hostname)
 temps=$(date +%s)
-# Calcul du pourcentage de RAM utilisée
+user=$(whoami)
 ram=$(free | awk '/Mem:/ {printf("%.0f"), $3/$2 * 100}')
 
-echo "{\"[INFO : RAM]\": {\"serveur\": \"$serveur\", \"temps\": $temps, \"ram\": $ram}}"
+echo "{\"[INFO : RAM]\": {\"serveur\": \"$serveur\", \"user\": \"$user\", \"temps\": $temps, \"ram\": $ram}}"
