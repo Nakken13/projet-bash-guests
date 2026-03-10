@@ -14,7 +14,7 @@ class SondeCpu:
         self.name_server = os.uname()[1]#recup nom du server
         
     def collecter(self):
-        return json.dump({
+        return json.dumps({
             "[INFO : CPU]": {
                 "serveur": self.name_server,
                 "temps": self.time,
