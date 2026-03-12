@@ -1,5 +1,4 @@
 #!/bin/python3
-import json
 import time
 import psutil
 import os
@@ -10,19 +9,9 @@ import os
 class SondeCpu:
     def __init__(self):
         self.cpu_percent = psutil.cpu_percent(interval=1) #récup infos du cpu
-        self.time = int(time.time())#dater avec epoch
-        self.name_server = os.uname()[1]#recup nom du server
-        self.user = os.environ.get("USER")
 
     def collecter(self):
-        return json.dumps({
-            "[INFO : CPU]": {
-                "user": self.user,
-                "serveur": self.name_server,
-                "temps": self.time,
-                "cpu": self.cpu_percent
-            }
-        })
+        return self.cpu_percent
 
 sonde = SondeCpu()
 print(sonde.collecter())
