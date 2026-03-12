@@ -8,8 +8,8 @@ import subprocess
 
 cpu = psutil.cpu_percent(interval=1)
 disk = psutil.disk_usage('/').percent 
-ram = subprocess.run("./sonde-ram.sh")
-
+ram_process = subprocess.run(["bash", "./sonde-ram.sh"], capture_output=True, text=True)
+ram = int(ram_process.stdout.strip()) 
 os.system("clear")
 
 final_json = {
