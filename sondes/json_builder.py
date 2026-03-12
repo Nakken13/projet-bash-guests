@@ -18,9 +18,9 @@ final_json = {
         {
             "timestamp": int(time.time()),
             "sondes":{
-                "cpu": cpu + "%",
-                "disk": disk + "%",
-                "ram": ram + "%"
+                "cpu": str(cpu) + "%",
+                "disk": str(disk) + "%",
+                "ram": str(ram) + "%"
             }
         }
     ]
