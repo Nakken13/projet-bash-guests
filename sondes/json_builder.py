@@ -10,7 +10,6 @@ cpu = psutil.cpu_percent(interval=1)
 disk = psutil.disk_usage('/').percent 
 ram_process = subprocess.run(["bash", "./sonde-ram.sh"], capture_output=True, text=True)
 ram = int(ram_process.stdout.strip()) 
-os.system("clear")
 
 final_json = {
     "user": os.environ.get("USER"),
@@ -19,9 +18,9 @@ final_json = {
         {
             "timestamp": int(time.time()),
             "sondes":{
-                "cpu": cpu,
-                "disk": disk,
-                "ram": ram
+                "cpu": cpu + "%",
+                "disk": disk + "%",
+                "ram": ram + "%"
             }
         }
     ]
