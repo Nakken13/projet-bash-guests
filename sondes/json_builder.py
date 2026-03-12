@@ -4,10 +4,11 @@ import json
 import os
 import time
 import psutil
+import subprocess
 
 cpu = psutil.cpu_percent(interval=1)
 disk = psutil.disk_usage('/').percent 
-ram = os.system("./sonde-ram.sh")
+ram = subprocess.run("./sonde-ram.sh")
 
 os.system("clear")
 
