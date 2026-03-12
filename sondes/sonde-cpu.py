@@ -1,10 +1,6 @@
-#!/bin/python3
-import time
-import psutil
-import os
-# possibilité d'envoyer les données récupées et les récupérer sur le moniteur et le moniteur peut intérroger
+#!/usr/bin/env python3
 
-#cron : permet de lancer un programme tout les x temps
+import psutil
 
 class SondeCpu:
     def __init__(self):

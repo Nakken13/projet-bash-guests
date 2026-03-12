@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 
 import psutil
-import time
-import os
-import time
-
 
 class SondeDisque:
     def __init__(self):
