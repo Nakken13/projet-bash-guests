@@ -3,6 +3,13 @@
 import json
 import os
 import time
+import psutil
+
+cpu = psutil.cpu_percent(interval=1)
+disk = psutil.disk_usage('/').percent 
+ram = os.system("./sonde-ram.sh")
+
+os.system("clear")
 
 final_json = {
     "user": os.environ.get("USER"),
@@ -11,9 +18,9 @@ final_json = {
         {
             "timestamp": int(time.time()),
             "sondes":{
-                "cpu": os.system("./sonde-cpu.py"),
-                "disk": os.system("./sonde-disk.py"),
-                "ram": os.system("./sonde-ram.sh")
+                "cpu": cpu,
+                "disk": disk,
+                "ram": ram
             }
         }
     ]
