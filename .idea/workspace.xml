@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec97a56a-5b7e-4936-ad95-64ac391926bb" name="Changes" comment="update echo ram" />
+    <list default="true" id="ec97a56a-5b7e-4936-ad95-64ac391926bb" name="Changes" comment="update echo ram">
+      <change afterPath="$PROJECT_DIR$/sondes/sonde-cpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sondes/sonde-disk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sondes/json_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/sondes/json_builder.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +39,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="3AkYPfuARCEmzYSUinhClaHcjvq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,16 +49,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.json_builder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHELLCHECK.PATH": "C:\\Users\\nahel\\AppData\\Roaming\\JetBrains\\PyCharm2025.3\\plugins\\Shell Script\\shellcheck.exe",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/L2/S4/projet-bash/guest/sondes",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\L2\S4\projet-bash\guest\sondes" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,6 +83,8 @@
       <updated>1773138012963</updated>
       <workItem from="1773180082650" duration="356000" />
       <workItem from="1773184734964" duration="62000" />
+      <workItem from="1773398904274" duration="7235000" />
+      <workItem from="1773418022463" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="first commit (guests)">
       <option name="closed" value="true" />
@@ -149,5 +174,8 @@
     <MESSAGE value="update user ram" />
     <MESSAGE value="update echo ram" />
     <option name="LAST_COMMIT_MESSAGE" value="update echo ram" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/guest$json_builder.coverage" NAME="json_builder Coverage Results" MODIFIED="1773405999137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sondes" />
   </component>
 </project>
