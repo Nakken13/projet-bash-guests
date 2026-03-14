@@ -17,7 +17,7 @@ cpu = cpu_process.stdout.strip()
 disk_process = subprocess.run([os.path.join(DIR, "sonde-disk.py")], capture_output=True, text=True)
 disk = disk_process.stdout.strip()
 
-ram_process = subprocess.run(["bash", os.path.join(DIR , "sonde-ram.sh")], capture_output=True, text=True)
+ram_process = subprocess.run(["bash", os.path.join(DIR, "sonde-ram.sh")], capture_output=True, text=True)
 ram = int(ram_process.stdout.strip())
 
 final_json = {
