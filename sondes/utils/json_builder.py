@@ -12,10 +12,10 @@ nbr_process = subprocess.run("who | sort | cut -d' ' -f1 | uniq | wc -l", shell=
 nbr = int(nbr_process.stdout.strip())
 
 cpu_process = subprocess.run([os.path.join(DIR, "sonde-cpu.py")], capture_output=True, text=True)
-cpu = cpu_process.stdout.strip()
+cpu = float(cpu_process.stdout.strip())
 
 disk_process = subprocess.run([os.path.join(DIR, "sonde-disk.py")], capture_output=True, text=True)
-disk = disk_process.stdout.strip()
+disk = float(disk_process.stdout.strip())
 
 ram_process = subprocess.run(["bash", os.path.join(DIR, "sonde-ram.sh")], capture_output=True, text=True)
 ram = int(ram_process.stdout.strip())
