@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 
-chmod +x ./sondes/sonde.sh
-chmod +x ./sondes/utils/sonde-ram.sh
-chmod +x ./sondes/utils/sonde-cpu.py
-chmod +x ./sondes/utils/sonde-disk.py
-chmod +x ./sondes/utils/json_builder.py
+for f in ./sondes/*.py; do
+    chmod +x "$f"
+done
+
+for f in ./sondes/*.sh; do
+    chmod +x "$f"
+done
